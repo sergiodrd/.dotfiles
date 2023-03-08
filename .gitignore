@@ -1,0 +1,2 @@
+# ignore specific tmux resurrect files, but keep the directory itself
+tmux/resurrect/**
