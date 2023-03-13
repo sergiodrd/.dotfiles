@@ -5,7 +5,7 @@ neofetch
 alias start-reverse="vboxmanage startvm reverse --type headless"
 alias start-cyber="vboxmanage startvm cyber --type headless"
 alias connect-reverse="ssh -X -p 5679 lubuntu@127.0.0.1"
-alias connect-cyber="ssh -p 5680 camp@127.0.0.1"
+alias connect-cyber="ssh -X -p 5680 camp@127.0.0.1"
 alias ada="ssh sergio.rodriguez20@ada.uprrp.edu"
 # alias tmux="TERM=screen-256color-bce tmux"
 
@@ -22,4 +22,3 @@ SAVEHIST=1000
 setopt autocd
 unsetopt beep
 bindkey -v
-# End of lines configured by zsh-newuser-install
